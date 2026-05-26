@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+build/
+.eggs/
+*.egg-info/
+
+# uv
+.venv/
+.uv-cache/
+.python-version
+
+# Notebook artifacts
+.ipynb_checkpoints/
+*.executed.ipynb
+
+# Test and coverage artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# IDEs
+.cursor/
+.vscode/
+.idea/
+.kiro/
+
+# macOS archive metadata
+__MACOSX/
+
+# Project outputs
+demo/live_demo/shot/
+demo/live_demo/captures/
+data/navigation*/
+benchmark/outputs/
+
+# Local tool/runtime artifacts
+*.log
+MUJOCO_LOG.TXT
+.DS_Store
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.temp
+*.tmp
+*~

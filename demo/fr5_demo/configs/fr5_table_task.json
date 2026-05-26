@@ -1,0 +1,233 @@
+{
+  "model_xml": "assets/fr5/mjmodel.xml",
+  "robot": "fr5",
+  "joint_names": [
+    "j1",
+    "j2",
+    "j3",
+    "j4",
+    "j5",
+    "j6"
+  ],
+  "actuator_names": [
+    "j1_pos",
+    "j2_pos",
+    "j3_pos",
+    "j4_pos",
+    "j5_pos",
+    "j6_pos"
+  ],
+  "gripper_actuator_names": [
+    "fingers_actuator"
+  ],
+  "tcp_site": "tcp",
+  "target_site": "myd_part1_site",
+  "target_object": {
+    "name": "red_tape_roll",
+    "description": "red tape roll grasp target",
+    "outer_diameter_m": 0.113,
+    "inner_diameter_m": 0.077,
+    "width_m": 0.043,
+    "white_hub_radial_width_m": 0.003,
+    "mass_kg": 0.08,
+    "initial_pos_m": [
+      -0.44,
+      0.046,
+      0.02
+    ]
+  },
+  "sim_tape_pick_place": {
+    "object_name": "red_tape_roll",
+    "object_site": "red_tape_roll_site",
+    "object_qpos_slice": [
+      0,
+      7
+    ],
+    "task_name": "three_tape_rings_on_myd_part1",
+    "task_description": "Move the red, yellow, and white tape roll centers onto the myd_part1 insertion target in order.",
+    "randomize_start": true,
+    "randomize_tape_slots": true,
+    "start_random_center_m": [
+      -0.44,
+      0.046,
+      0.02
+    ],
+    "start_random_radius_m": 0.04,
+    "stack_on_goal": false,
+    "stack_spacing_m": 0.0,
+    "tape_objects": [
+      {
+        "name": "red_tape_roll",
+        "site": "red_tape_roll_site",
+        "joint": "red_tape_roll_joint",
+        "qpos_slice": [
+          0,
+          7
+        ],
+        "color": "red",
+        "slot_name": "center_front",
+        "slot_center_m": [
+          -0.44,
+          0.046,
+          0.02
+        ],
+        "slot_half_extents_m": [
+          0.045,
+          0.035
+        ]
+      },
+      {
+        "name": "yellow_tape_roll",
+        "site": "yellow_tape_roll_site",
+        "joint": "yellow_tape_roll_joint",
+        "qpos_slice": [
+          7,
+          14
+        ],
+        "color": "yellow",
+        "slot_name": "left_front",
+        "slot_center_m": [
+          -0.7625,
+          0.07,
+          0.02
+        ],
+        "slot_half_extents_m": [
+          0.04,
+          0.03
+        ]
+      },
+      {
+        "name": "white_tape_roll",
+        "site": "white_tape_roll_site",
+        "joint": "white_tape_roll_joint",
+        "qpos_slice": [
+          14,
+          21
+        ],
+        "color": "white",
+        "slot_name": "left_mid",
+        "slot_center_m": [
+          -0.755,
+          -0.165,
+          0.02
+        ],
+        "slot_half_extents_m": [
+          0.045,
+          0.035
+        ]
+      }
+    ],
+    "goal_site": "myd_part1_site",
+    "goal_pos_m": [
+      -0.485,
+      -0.26,
+      0.0
+    ],
+    "goal_offset_m": [
+      0.055,
+      0.0675,
+      0.05
+    ],
+    "start_pos_m": [
+      0,
+      0,
+      0.1
+    ],
+    "drop_delta_x_m": 0.0,
+    "drop_random_radius_m": 0.0,
+    "lift_success_delta_z_m": 0.01,
+    "place_success_radius_m": 0.025,
+    "grasp_wall_center_radius_m": 0.0475,
+    "grasp_wall_angle_rad": -1.5707963268,
+    "grasp_wall_strategy": "nearest_to_robot_base",
+    "robot_base_xy_m": [
+      0.0,
+      0.0
+    ],
+    "gripper_rotate_joint6_rad": 1.5707963268,
+    "gripper_vertical_axis": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "gripper_vertical_axis_index": 2,
+    "gripper_vertical_axis_weight": 0.02,
+    "gripper_vertical_axis_tol": 0.02,
+    "approach_height_m": 0.15,
+    "grasp_height_m": 0.02,
+    "vertical_descend_segments": 6,
+    "vertical_descend_duration_s": 1.0,
+    "lift_delta_m": 0.14,
+    "lift_height_m": 0.2,
+    "release_drop_delta_m": 0.03,
+    "release_height_m": 0.015,
+    "default_gripper_opening": 0.0,
+    "default_gripper_closed": 1.0,
+    "release_gripper_closure": 0.5,
+    "grasp_mode": "inner_outer_wall",
+    "attach_distance_m": 0.08,
+    "attach_z_distance_m": 0.055,
+    "attach_gripper_threshold": 0.85,
+    "attach_assist_default": true
+  },
+  "initial_qpos_for_cam": [
+    0.2,
+    -0.6854,
+    1.2,
+    0.45,
+    1.5617,
+    0.01
+  ],
+  "initial_qpos": [
+    -0.005730117205530405,
+    -1.1011680364608765,
+    1.435904860496521,
+    0.807759702205658,
+    1.5483427047729492,
+    9.548599688713466e-10
+  ],
+  "demo_target_qpos": [
+    0.25,
+    -1.15,
+    1.2,
+    -1.35,
+    -1.45,
+    0.25
+  ],
+  "gripper_opening": 0.0,
+  "control_dt": 0.02,
+  "fr5_3dgs": {
+    "points_per_geom": 12000,
+    "scale": 0.00085,
+    "opacity": 0.3,
+    "regenerate_on_missing": true,
+    "appearance_transfer": {
+      "enabled": true,
+      "mode": "mesh_conditioned_projection",
+      "texture_atlas": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/textures/fr5_static_appearance_atlas.png",
+      "targets": [
+        "grooved_table",
+        "fr5_fixed_base"
+      ],
+      "robot_adapter_enabled": false,
+      "dynamic_object_adapter_enabled": true,
+      "recolor_blend": 0.88,
+      "xml_material": "fr5_appearance_mat",
+      "xml_texture": "fr5_appearance_tex"
+    }
+  },
+  "real_deployment": {
+    "tape_manual_offset_m": [
+      0.0,
+      0.0,
+      0.03
+    ],
+    "tape_manual_offset_notes": "Real-deployment only correction. Raises all detected tape world coordinates above the simulated/table-plane tape center to avoid over-descending during real grasp.",
+    "myd_part_manual_offset_m": [
+      0.05,
+      -0.03,
+      0.0
+    ],
+    "myd_part_manual_offset_notes": "Real-deployment only correction added by fr5_show_real_targets.py. It is added on top of sim_tape_pick_place.goal_pos_m + goal_offset_m."
+  }
+}

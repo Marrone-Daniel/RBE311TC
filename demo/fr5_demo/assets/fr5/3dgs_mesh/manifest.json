@@ -1,0 +1,78 @@
+{
+  "grooved_table": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/grooved_table.ply",
+    "points": 612000
+  },
+  "red_tape_roll": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/red_tape_roll.ply",
+    "points": 120000
+  },
+  "fr5_fixed_base": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/fr5_fixed_base.ply",
+    "points": 12000
+  },
+  "base_link": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/base_link.ply",
+    "points": 12000
+  },
+  "shoulder_link": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/shoulder_link.ply",
+    "points": 12000
+  },
+  "upperarm_link": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/upperarm_link.ply",
+    "points": 12000
+  },
+  "forearm_link": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/forearm_link.ply",
+    "points": 12000
+  },
+  "wrist1_link": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/wrist1_link.ply",
+    "points": 12000
+  },
+  "wrist2_link": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/wrist2_link.ply",
+    "points": 12000
+  },
+  "wrist3_link": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/wrist3_link.ply",
+    "points": 12000
+  },
+  "robotiq_base_link": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/robotiq_base_link.ply",
+    "points": 36000
+  },
+  "left_driver": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/left_driver.ply",
+    "points": 12000
+  },
+  "left_coupler": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/left_coupler.ply",
+    "points": 12000
+  },
+  "left_spring_link": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/left_spring_link.ply",
+    "points": 12000
+  },
+  "left_follower": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/left_follower.ply",
+    "points": 24000
+  },
+  "right_driver": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/right_driver.ply",
+    "points": 12000
+  },
+  "right_coupler": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/right_coupler.ply",
+    "points": 12000
+  },
+  "right_spring_link": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/right_spring_link.ply",
+    "points": 12000
+  },
+  "right_follower": {
+    "path": "/home/sanchez/gs_playground/demo/fr5_demo/assets/fr5/3dgs_mesh/right_follower.ply",
+    "points": 24000
+  }
+}

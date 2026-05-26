@@ -1,0 +1,216 @@
+{
+  "name": "astra_rgb",
+  "device": "Orbbec Astra Pro Plus",
+  "enabled": true,
+  "calibrated": true,
+  "intrinsics": {
+    "width": 640,
+    "height": 480,
+    "fx": 544.258056640625,
+    "fy": 544.258056640625,
+    "cx": 304.1429748535156,
+    "cy": 240.0436553955078,
+    "distortion": [
+      0.10648287087678909,
+      -0.14466749131679535,
+      -0.0012652887962758541,
+      -0.0006333109340630472,
+      -0.04808653146028519
+    ]
+  },
+  "extrinsics": {
+    "frame": "world_from_camera",
+    "position": [
+      -1.0954061700821982,
+      -0.27932684743039554,
+      0.7081999343124773
+    ],
+    "rotation_matrix": [
+      [
+        0.057366575463372094,
+        -0.718627022881362,
+        0.6930254526381234
+      ],
+      [
+        -0.9982754082126826,
+        -0.032625406038490956,
+        0.04880360886887358
+      ],
+      [
+        -0.012461355359977333,
+        -0.6946299625451628,
+        -0.7192592924370865
+      ]
+    ]
+  },
+  "calibration_target": {
+    "type": "fr5_dynamic_marker_eye_to_hand",
+    "tracking_link": "wrist1_link",
+    "samples": 10,
+    "excluded_samples": [],
+    "marker_length_m": 0.08,
+    "link_from_marker": {
+      "position": [
+        0.0029450402207170396,
+        0.04347911687770479,
+        0.12897572889910738
+      ],
+      "rotation_matrix": [
+        [
+          0.04154414718247307,
+          0.9957024288925294,
+          -0.08276929945576517
+        ],
+        [
+          -0.07628219311050671,
+          0.08575993945265956,
+          0.9933912923915365
+        ],
+        [
+          0.9962204127848073,
+          -0.03495577037619513,
+          0.07951718850836181
+        ]
+      ],
+      "rotation_quat_xyzw": [
+        -0.4680456759819098,
+        -0.49109535829659,
+        -0.4879070356823185,
+        0.5492770874393667
+      ]
+    },
+    "reprojection_error_px": {
+      "mean_px": 1.4062801132244158,
+      "max_px": 4.568471850218978,
+      "per_sample_px": [
+        {
+          "index": 0,
+          "image": "sample_000.png",
+          "mean_px": 0.9454835584366947,
+          "max_px": 1.4160271582391852
+        },
+        {
+          "index": 1,
+          "image": "sample_001.png",
+          "mean_px": 1.4196927759970173,
+          "max_px": 1.9626600711305318
+        },
+        {
+          "index": 2,
+          "image": "sample_002.png",
+          "mean_px": 0.7374633802635518,
+          "max_px": 0.9766004148897325
+        },
+        {
+          "index": 3,
+          "image": "sample_003.png",
+          "mean_px": 3.30504134015207,
+          "max_px": 4.568471850218978
+        },
+        {
+          "index": 5,
+          "image": "sample_005.png",
+          "mean_px": 1.846905654411772,
+          "max_px": 2.5559702117460072
+        },
+        {
+          "index": 6,
+          "image": "sample_006.png",
+          "mean_px": 1.2589512883663527,
+          "max_px": 2.4384116880504365
+        },
+        {
+          "index": 7,
+          "image": "sample_007.png",
+          "mean_px": 0.7047915486527278,
+          "max_px": 1.2585337081975319
+        },
+        {
+          "index": 8,
+          "image": "sample_008.png",
+          "mean_px": 0.7506860321250733,
+          "max_px": 1.1556111037854444
+        },
+        {
+          "index": 9,
+          "image": "sample_009.png",
+          "mean_px": 1.8374947643298576,
+          "max_px": 2.138245216451101
+        },
+        {
+          "index": 10,
+          "image": "sample_010.png",
+          "mean_px": 1.2562907895090418,
+          "max_px": 2.010303933013317
+        }
+      ],
+      "per_corner_px": [
+        0.8754965309999759,
+        0.9138249489553032,
+        1.4160271582391852,
+        0.5765855955523145,
+        1.9626600711305318,
+        1.4581174190994406,
+        1.3546223413623022,
+        0.9033712723957947,
+        0.7525777173173217,
+        0.25725198949129047,
+        0.9634233993558627,
+        0.9766004148897325,
+        2.9914876435383273,
+        3.2971081230624253,
+        2.3630977437885505,
+        4.568471850218978,
+        1.9958540433430696,
+        1.371833224427035,
+        1.4639651381309748,
+        2.5559702117460072,
+        0.7325089210094919,
+        2.4384116880504365,
+        1.4577063367195897,
+        0.4071782076858922,
+        0.7450902927887996,
+        0.34703889064010934,
+        1.2585337081975319,
+        0.46850330298447007,
+        0.7671632748216989,
+        0.6214993707039674,
+        1.1556111037854444,
+        0.458470379189183,
+        1.2486849863515315,
+        2.078075251113921,
+        2.138245216451101,
+        1.8849736034028766,
+        0.7520536627181846,
+        2.010303933013317,
+        1.3859151664621017,
+        0.8768903958425646
+      ]
+    },
+    "least_squares": {
+      "success": true,
+      "cost": 44.21304780337256,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 53
+    }
+  },
+  "notes": [
+    "Astra Pro Plus is listed by Orbbec as limited maintenance on pyorbbecsdk main/v1.x and not supported on v2-main.",
+    "Run camera_capture_orbbec.py first to fill intrinsics, then calibrate_astra_extrinsic.py to fill extrinsics and set calibrated=true.",
+    "The extrinsics use OpenCV RGB camera coordinates: x right, y down, z forward. camera_geometry.py converts them to MuJoCo xyaxes."
+  ],
+  "manual_extrinsic_correction": {
+    "frame": "camera_local_opencv",
+    "rotation_rpy_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "position_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "notes": "Small manual correction after dynamic calibration. Camera-local OpenCV axes: x right, y down, z forward. For image roll/tilt, tune rotation_rpy_deg[2]."
+  }
+}

@@ -1,0 +1,23 @@
+appearance:
+  atlas_size: 2048
+  samples_per_box_face: 32
+  z_tolerance_m: 0.015
+  texture_name: fr5_appearance_tex
+  material_name: fr5_appearance_mat
+  texture_file: textures/fr5_static_appearance_atlas.png
+  robot_adapter_enabled: false
+  dynamic_object_adapter_enabled: true
+  targets:
+    - name: grooved_table
+      role: table
+      enabled: true
+    - name: fr5_fixed_base
+      role: fixed_base
+      enabled: true
+  gaussian:
+    enabled: true
+    points_per_geom: 12000
+    scale: 0.00085
+    opacity: 0.58
+    recolor_blend: 0.88
+    regenerate: false

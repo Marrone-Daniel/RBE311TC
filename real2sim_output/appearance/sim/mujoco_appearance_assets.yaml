@@ -1,0 +1,6 @@
+mujoco_appearance:
+  texture_name: fr5_appearance_tex
+  material_name: fr5_appearance_mat
+  texture_file: textures/fr5_static_appearance_atlas.png
+  targets: ["grooved_table", "fr5_fixed_base"]
+  note: Global atlas is backward-compatible only. Prefer checking per_target outputs first.

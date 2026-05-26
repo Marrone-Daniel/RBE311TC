@@ -1,0 +1,59 @@
+reconstruction:
+  backend: dummy
+  save_visual_mesh: true
+  save_gaussian: false
+
+scene:
+  enabled: true
+  export_scene_gs_config: true
+  static_assets:
+    fr5_robot:
+      role: robot
+      mujoco_body: base_link
+      mujoco_xml: demo/fr5_demo/assets/fr5/mjmodel.xml
+      mesh_file: ""
+      gaussian_file: real2sim_scene/fr5_robot_gaussian.ply
+      binding_mode: mesh_vertices
+      physics_source: existing_mujoco
+      visual_source: 3dgs
+    grooved_table:
+      role: table
+      mujoco_body: grooved_table
+      mujoco_xml: demo/fr5_demo/assets/fr5/mjmodel.xml
+      mesh_file: ""
+      gaussian_file: real2sim_scene/grooved_table_gaussian.ply
+      binding_mode: mesh_vertices
+      physics_source: existing_mujoco
+      visual_source: 3dgs
+    fr5_fixed_base:
+      role: fixed_base
+      mujoco_body: fr5_fixed_base
+      mujoco_xml: demo/fr5_demo/assets/fr5/mjmodel.xml
+      mesh_file: ""
+      gaussian_file: real2sim_scene/fr5_fixed_base_gaussian.ply
+      binding_mode: mesh_vertices
+      physics_source: existing_mujoco
+      visual_source: 3dgs
+
+camera:
+  intrinsics_file: intrinsics.yaml
+  camera_pose_file: camera_pose.yaml
+  default_camera_frame: opencv
+
+object:
+  name: target_object
+  mass: 0.05
+  friction: [1.0, 0.005, 0.0001]
+  collision_type: box
+  scale_factor: 1.0
+  min_size: [0.005, 0.005, 0.005]
+
+simulation:
+  engine: mujoco
+  export_mujoco_xml: true
+  export_gs_config: true
+
+debug:
+  save_overlay: true
+  save_pointcloud: true
+  save_report: true

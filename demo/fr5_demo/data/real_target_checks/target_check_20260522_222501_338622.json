@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-05-22T22:25:01",
+  "image": "/home/sanchez/gs_playground/demo/fr5_demo/data/real_target_checks/target_check_20260522_222501_338622.png",
+  "active_color": "white",
+  "tape_plane_z_m": 0.02,
+  "myd_part_target_world_m": [
+    -0.425,
+    -0.2025,
+    0.05
+  ],
+  "myd_part_session_offset_m": [
+    0.005,
+    -0.01,
+    0.0
+  ],
+  "myd_part_config_offset_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "detections": {
+    "red": {
+      "center_px": [
+        73.957,
+        417.521
+      ],
+      "area_px": 1371.5,
+      "score": 1371.5,
+      "slot_name": "left_front",
+      "bbox_xywh": [
+        50,
+        376,
+        66,
+        84
+      ],
+      "world_m": [
+        -0.77333,
+        0.053585,
+        0.02
+      ],
+      "nearest_grasp_world_m": [
+        -0.725943,
+        0.050301,
+        0.02
+      ]
+    },
+    "yellow": {
+      "center_px": [
+        143.586,
+        232.222
+      ],
+      "area_px": 122.5,
+      "score": 122.5,
+      "slot_name": "center_front",
+      "bbox_xywh": [
+        140,
+        223,
+        8,
+        21
+      ],
+      "world_m": [
+        -0.426102,
+        0.053407,
+        0.02
+      ],
+      "nearest_grasp_world_m": [
+        -0.378971,
+        0.047499,
+        0.02
+      ]
+    },
+    "white": {
+      "center_px": [
+        263.604,
+        420.05
+      ],
+      "area_px": 2475.5,
+      "score": 2005.8954589523462,
+      "slot_name": "left_mid",
+      "bbox_xywh": [
+        243,
+        370,
+        45,
+        96
+      ],
+      "world_m": [
+        -0.765709,
+        -0.198068,
+        0.02
+      ],
+      "nearest_grasp_world_m": [
+        -0.719722,
+        -0.186172,
+        0.02
+      ]
+    }
+  }
+}
