@@ -38,29 +38,7 @@ uv sync
 
 ```text
 demo/fr5_demo/
-├── assets/fr5/m
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-jmodel.xml              # FR5 仿真场景
+├── assets/fr5/mjmodel.xml              # FR5 仿真场景
 ├── configs/fr5_table_task.json         # 任务参数、初始位姿、目标和胶带配置
 ├── configs/astra_camera.json           # Astra 相机内外参
 ├── fr5_sim_tape_pick_place.py          # 仿真示教数据生成
